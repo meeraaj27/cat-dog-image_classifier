@@ -1,0 +1,5 @@
+streamlit
+tensorflow
+numpy
+Pillow # This is the package name for PIL
+matplotlib
