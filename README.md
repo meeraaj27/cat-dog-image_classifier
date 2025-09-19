@@ -18,10 +18,10 @@ This project is a web application built with **Streamlit** that classifies image
 
 ### Project Structure
 
-* [cite_start]`app.py`: The main Python script that runs the Streamlit web application[cite: 1].
+* `app.py`: The main Python script that runs the Streamlit web application.
 * `requirements.txt`: Lists all the necessary Python libraries to run the application.
-* [cite_start]`final_image_classifier.keras`: The pre-trained deep learning model used for initial predictions[cite: 1].
-* [cite_start]`training_curves.png`: A plot showing the model's training and validation accuracy and loss over time[cite: 1].
+* `final_image_classifier.keras`: The pre-trained deep learning model used for initial predictions.
+* `training_curves.png`: A plot showing the model's training and validation accuracy and loss over time.
 * `PROJECT.ipynb`: A Jupyter Notebook containing the code used to train and evaluate the initial model.
 
 ---
@@ -50,6 +50,6 @@ This project is a web application built with **Streamlit** that classifies image
 2.  **Open in browser:**
     The application will open in your default web browser at `http://localhost:8501`.
 3.  **Classify an image:**
-    On the left sidebar, you can either "Upload an Image" or "Use Camera" to get a prediction. [cite_start]The application will display the predicted class and a confidence score[cite: 1].
+    On the left sidebar, you can either "Upload an Image" or "Use Camera" to get a prediction. The application will display the predicted class and a confidence score.
 4.  **Retrain the model:**
-    To improve the model, use the "Retrain Model" section in the sidebar. [cite_start]Upload a ZIP file containing `cats/` and `dogs/` subdirectories with new images[cite: 1]. [cite_start]The model will then be retrained, and its performance will be displayed[cite: 1].
+    To improve the model, use the "Retrain Model" section in the sidebar. Upload a ZIP file containing `cats/` and `dogs/` subdirectories with new images. The model will then be retrained, and its performance will be displayed.
