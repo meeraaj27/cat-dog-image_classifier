@@ -6,13 +6,13 @@ This project is a web application built with **Streamlit** that classifies image
 
 ### Features
 
-* [cite_start]**Image Classification:** Upload an image or use your device's camera to predict if the image contains a cat or a dog[cite: 1].
+* **Image Classification:** Upload an image or use your device's camera to predict if the image contains a cat or a dog.
     * **Cat Prediction Example:** ![Cat Prediction](cat-prediction.png)
     * **Dog Prediction Example:** ![Dog Prediction](dog-prediction.png)
-* [cite_start]**Live Retraining:** Retrain the model using a ZIP file containing new cat and dog images, which improves the model's accuracy and adaptability[cite: 1].
-* [cite_start]**Performance Metrics:** View real-time performance statistics, including accuracy and loss, after retraining the model[cite: 1].
+* **Live Retraining:** Retrain the model using a ZIP file containing new cat and dog images, which improves the model's accuracy and adaptability.
+* **Performance Metrics:** View real-time performance statistics, including accuracy and loss, after retraining the model.
     * **Training Curves:** ![Training Curves](training_curves.png)
-* [cite_start]**Interactive UI:** A user-friendly interface built with Streamlit for a seamless experience[cite: 1].
+* **Interactive UI:** A user-friendly interface built with Streamlit for a seamless experience.
 
 ---
 
